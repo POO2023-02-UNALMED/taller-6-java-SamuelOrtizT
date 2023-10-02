@@ -12,6 +12,6 @@ public class Pais {
         this.nombre = nuevoNombre;
     }
     public static Pais paisMasVendedor() {
-        return;
+        return Fabricante.fabricaMayorVentas().getPais();
     }
 }
