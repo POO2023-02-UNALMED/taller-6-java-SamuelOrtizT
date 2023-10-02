@@ -1,5 +1,14 @@
 package vehiculos;
 
 public class Pais {
-    String nombre;
+    private String nombre;
+    public Pais(String nombre) {
+        this.nombre = nombre;
+    }
+    public String getNombre() {
+        return this.nombre;
+    }
+    public void setNombre(String nuevoNombre) {
+        this.nombre = nuevoNombre;
+    }
 }
